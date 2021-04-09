@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7768" started-at="2021-04-10T02:26:48 SGT" finished-at="2021-04-10T02:26:56 SGT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7768" started-at="2021-04-10T02:26:48 SGT" finished-at="2021-04-10T02:26:56 SGT">
+      <class name="com.wizeline.test.TC_Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.wizeline.test.TC_Login@4d95d2a2]" name="initialize" is-config="true" duration-ms="4606" started-at="2021-04-10T02:26:43 SGT" finished-at="2021-04-10T02:26:48 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TCLogin()[pri:0, instance:com.wizeline.test.TC_Login@4d95d2a2]" name="TCLogin" duration-ms="7669" started-at="2021-04-10T02:26:48 SGT" finished-at="2021-04-10T02:26:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCLogin -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.wizeline.test.TC_Login@4d95d2a2]" name="tearDownTest" is-config="true" duration-ms="1134" started-at="2021-04-10T02:26:56 SGT" finished-at="2021-04-10T02:26:57 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.wizeline.test.TC_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
