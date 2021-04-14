@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7768" started-at="2021-04-10T02:26:48 SGT" finished-at="2021-04-10T02:26:56 SGT">
+  <suite name="Suite" duration-ms="16932" started-at="2021-04-14T13:35:05 SGT" finished-at="2021-04-14T13:35:22 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7768" started-at="2021-04-10T02:26:48 SGT" finished-at="2021-04-10T02:26:56 SGT">
-      <class name="com.wizeline.test.TC_Login">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.wizeline.test.TC_Login@4d95d2a2]" name="initialize" is-config="true" duration-ms="4606" started-at="2021-04-10T02:26:43 SGT" finished-at="2021-04-10T02:26:48 SGT">
+    <test name="Test" duration-ms="16932" started-at="2021-04-14T13:35:05 SGT" finished-at="2021-04-14T13:35:22 SGT">
+      <class name="com.wizeline.test.TC_VerifyOrderSuccess">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.wizeline.test.TC_VerifyOrderSuccess@167fdd33]" name="initialize" is-config="true" duration-ms="3743" started-at="2021-04-14T13:35:01 SGT" finished-at="2021-04-14T13:35:05 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TCLogin()[pri:0, instance:com.wizeline.test.TC_Login@4d95d2a2]" name="TCLogin" duration-ms="7669" started-at="2021-04-10T02:26:48 SGT" finished-at="2021-04-10T02:26:56 SGT">
+        <test-method status="PASS" signature="TCVerifyOrderSuccess()[pri:0, instance:com.wizeline.test.TC_VerifyOrderSuccess@167fdd33]" name="TCVerifyOrderSuccess" duration-ms="16876" started-at="2021-04-14T13:35:05 SGT" finished-at="2021-04-14T13:35:22 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TCLogin -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.wizeline.test.TC_Login@4d95d2a2]" name="tearDownTest" is-config="true" duration-ms="1134" started-at="2021-04-10T02:26:56 SGT" finished-at="2021-04-10T02:26:57 SGT">
+        </test-method> <!-- TCVerifyOrderSuccess -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.wizeline.test.TC_VerifyOrderSuccess@167fdd33]" name="tearDownTest" is-config="true" duration-ms="1136" started-at="2021-04-14T13:35:22 SGT" finished-at="2021-04-14T13:35:23 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.wizeline.test.TC_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.wizeline.test.TC_VerifyOrderSuccess -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
