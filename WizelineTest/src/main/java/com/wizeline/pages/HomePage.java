@@ -22,32 +22,27 @@ public class HomePage extends TestReports{
 	}
 	
 	//locators	
-	@FindBy(how = How.CSS, using = "#email") WebElement emailText;
-	@FindBy(how = How.CSS, using = "#pass") WebElement pwText;
+	@FindBy(how = How.CSS, using = "#user-name") WebElement userText;
+	@FindBy(how = How.CSS, using = "#password") WebElement pwText;
 	
 	//Methods
 	
 	public void loginModal() throws InterruptedException{
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.saucedemo.com/");
 		//Extent Report
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("report.html");
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		ExtentTest test = extent.createTest("Logging In To Facebook");
+		ExtentTest test = extent.createTest("Logging In To SauceLabs");
 		
 		//Functions
-		emailText.sendKeys("09183453574");  test.pass("Email Accepted");
-		pwText.sendKeys("Iamnumber_010327"); test.pass("Password Accepted");
+		userText.sendKeys("standard_user");  test.pass("Email Accepted");
+		pwText.sendKeys("secret_sauce"); test.pass("Password Accepted");
 		pwText.sendKeys(Keys.RETURN); test.pass("Able to Login to Facebook");
 		Thread.sleep(3000);
 		
 		extent.flush();
 	}
 	
-	public void setPass(String text){
-	
-		pwText.sendKeys();
-	
-	}
 
 }
